@@ -23,3 +23,6 @@ The project aims to bring transparency, speed, and reliability to emergency fund
 - **Security:** Only campaign creators can close and withdraw funds from their campaigns.
 
 ---
+## Contract Address:
+0xF51cf0a18A7B5d7FB9367C32f2388e516BE37549 
+![Screenshot 2025-03-20 155112](https://github.com/user-attachments/assets/47968c56-49a0-47ac-9015-07f37cc7204a)
