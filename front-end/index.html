@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraiser DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Fundraiser DApp</h1>
+
+    <!-- Create Campaign Section -->
+    <div class="section">
+        <h2>Create Campaign</h2>
+        <input id="title" type="text" placeholder="Campaign Title">
+        <textarea id="description" placeholder="Campaign Description"></textarea>
+        <input id="goal" type="number" placeholder="Goal (ETH)">
+        <button onclick="createCampaign()">Create</button>
+    </div>
+
+    <!-- Campaign List -->
+    <div class="section">
+        <h2>All Campaigns</h2>
+        <div id="campaigns"></div>
+    </div>
+
+    <!-- Donate Section -->
+    <div class="section">
+        <h2>Donate to Campaign</h2>
+        <input id="campaignId" type="number" placeholder="Campaign ID">
+        <input id="donationAmount" type="number" placeholder="Amount (ETH)">
+        <button onclick="donate()">Donate</button>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
